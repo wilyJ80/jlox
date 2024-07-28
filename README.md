@@ -6,4 +6,5 @@
    - `java -jar target/*.jar` to run the jar as REPL
       - `java -jar target/*.jar <filename.lox>` to interpret Lox code
 
-Continue: chapter 5: Representing Code
+- Development:
+   - ` mvn exec:java -Dexec.mainClass="tool.GenerateAst" -Dexec.args="src/main/java/jlox"` To generate the AST
